@@ -1,0 +1,49 @@
+.loancal{
+    margin-right: 10px;
+    overflow:hidden;
+    margin:100px;
+    width:750px;
+    border-color: black;
+    border-style: solid;
+}
+
+.top{
+    background-color: blue;
+    color:black;
+    padding:10px;
+    
+    
+}
+.group{
+  display: inline-block  ;
+  margin:10px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 20px;
+  text-align: center;
+
+}
+.result{
+    display:flex;
+    padding:10px;
+
+}
+
+.loan-EMI{
+    font-size: medium;
+}
+   .value{
+    font-size: 20px;
+    border-bottom: 1px;
+    border-style: solid;
+   
+   }
+   .value::before{
+    content:"Rs.";
+    margin-right: 5px;
+   }
+   .cal-btn{
+    background-color:red;
+    margin-top:20px;
+    cursor: pointer;
+    font-size: 20px;
+   }
